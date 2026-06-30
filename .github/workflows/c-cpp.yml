@@ -1,3 +1,4 @@
+
 name: Build Hashcat Utils
 
 on:
@@ -15,6 +16,7 @@ on:
     paths:
       - 'src/**'
       - '.github/workflows/build.yml'
+  workflow_dispatch:
 
 jobs:
   build-linux:
